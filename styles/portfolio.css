@@ -7,8 +7,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
-
+    margin: 0px, 200px;
 }
 
 .nav-title {
@@ -32,6 +31,10 @@ nav {
     padding: 18px, 35px;
 
 }
+.header{
+    background-color: #FFF8F3;
+
+}
 
 nav>ul {
     display: flex;
@@ -46,5 +49,17 @@ nav li {
 nav a {
     text-decoration: none;
     color: #474747;
+
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+
+}
+.banner .profilepic{
+    width: 584px;
+height: 676px;
+flex-shrink: 0;
 
 }
